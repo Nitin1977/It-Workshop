@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const deleteButton = document.querySelector('[data-key="del"]');
 
   let enterClickCount = 0;
-  const maxFakeClicks = 5;
+  const maxFakeClicks = 3;
 
   // Position enter near delete button (on load and on 5th click)
   function positionEnterNearDelete() {
